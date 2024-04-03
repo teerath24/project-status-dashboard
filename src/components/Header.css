@@ -1,0 +1,27 @@
+.header {
+  margin-bottom: 10px;
+}
+
+.project-name h1 {
+  font-size: 28px;
+}
+.project-name {
+  padding-left: 231px;
+}
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #6c6c6c;
+  background-color: #f3f0ff;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .project-name {
+    padding-left: 97px;
+  }
+}

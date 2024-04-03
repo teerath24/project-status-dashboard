@@ -1,0 +1,26 @@
+.members-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 130px;
+}
+.member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.member-name {
+  font-size: 14px;
+}
+@media only screen and (max-width: 1200px) {
+  .members-container {
+    flex-direction: row;
+    gap: 25px;
+  }
+}

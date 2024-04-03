@@ -1,0 +1,32 @@
+.step-box {
+  border: 1px solid #525252;
+  background-color: #f3f0ff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 5px;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.step-box-circles {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.member-circle {
+  border: 1px solid #525252;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: -12px;
+  display: inline-block;
+}
+
+.member-circles {
+  margin-top: 10px;
+}
+/* .step-box:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
