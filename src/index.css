@@ -16,6 +16,7 @@ code {
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
+  height: 400px;
   gap: 30px;
 }
 .app-container {
